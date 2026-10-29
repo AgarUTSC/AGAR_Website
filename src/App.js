@@ -13,9 +13,10 @@ function App() {
 
 
       <main style={{ textAlign: 'center', marginTop: '20px', padding: '20px' }}>
-
-      <h1>AGAR @utsc.</h1>
-      <p>Website in development...</p>
+      <div style={{backgroundColor: '#68d29fbd', borderRadius: '50px', paddingRight: '20px', boxShadow: '10px 4px 8px rgba(161, 126, 56, 0.26)', alignItems: 'left'}}>
+        <h1 style={{ color: 'black', fontSize: '3rem'}}><strong>Welcome To AGAR</strong></h1>
+        <p style={{ color: 'black', fontSize: '1.25rem', lineHeight: '1.6', textAlign: 'left', padding: '20px' }}>The Action Group on Antimicrobial Resistance is a student-led organization at the University of Toronto Scarborough dedicated to raising awareness about antimicrobial resistance through outreach, education, and student research</p>
+      </div>
       </main>
     </div>
   );
