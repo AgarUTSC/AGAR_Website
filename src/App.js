@@ -10,8 +10,7 @@ function App() {
       style={{ width: '100%', height: '400px', maxHeight: '40vh', objectFit: 'cover', objectPosition: 'center' }}
       
       /> 
-
-
+      
       <main style={{ textAlign: 'center', marginTop: '20px', padding: '20px' }}>
       <div style={{backgroundColor: '#68d29fbd', borderRadius: '50px', paddingRight: '20px', boxShadow: '10px 4px 8px rgba(161, 126, 56, 0.26)', alignItems: 'left'}}>
         <h1 style={{ color: 'black', fontSize: '3rem'}}><strong>Welcome To AGAR</strong></h1>
