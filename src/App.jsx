@@ -73,6 +73,17 @@ function Home() {
 
 
         </div>
+
+        <div className="flex flex-row gap-4 w-full justify-start mt-5">
+            <a
+                href="https://www.instagram.com/agar.utsc/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-white text-black text-lg font-bold px-6 py-3 rounded-3xl shadow hover:scale-105 transition-transform"
+            >
+                Instagram &gt;
+            </a>
+        </div>
       </main>
     </div>
   );
