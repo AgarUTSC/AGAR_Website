@@ -42,8 +42,8 @@ function Home() {
           </p>
         </div>
 
-        <div className="flex flex-row gap-4 w-full justify-start mt-5">
-            <div className="text-black text-lg font-bold text-center px-8 py-4 rounded-3xl shadow-lg hover:scale-105 transition-transform"
+        <div className="flex flex-col md:flex-row gap-4 w-full justify-start mt-5">
+            <div className="w-full md:flex-1 text-black text-lg font-bold text-center px-8 py-4 rounded-3xl shadow-lg hover:scale-105 transition-transform"
                 style={{ backgroundColor: '#a2eec9' }}>
                 <h1 className="text-black text-3xl font-bold text-left pt-5 pl-5">Student Research</h1>
                 <p className="text-black text-lg leading-loose text-left p-5">
@@ -58,7 +58,7 @@ function Home() {
             </Link>
           </div>
 
-            <div className="text-black text-lg font-bold text-center px-8 py-4 rounded-3xl shadow-lg hover:scale-105 transition-transform" style={{ backgroundColor: '#48c186' }}>
+            <div className="w-full md:flex-1 text-black text-lg font-bold text-center px-8 py-4 rounded-3xl shadow-lg hover:scale-105 transition-transform" style={{ backgroundColor: '#48c186' }}>
                 <h1 className="text-black text-3xl font-bold text-left pt-5 pl-5">Newsletter</h1>
                 <p className="text-black text-lg leading-loose text-left p-5">
                     Stay updated with the latest news from AGAR.
