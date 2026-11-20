@@ -7,6 +7,9 @@ import { Link, Routes, Route } from 'react-router-dom';
 
 import Research from './pages/research';
 import Newsletter from './pages/newsletter';
+import Mission from './pages/mission';
+import Events from './pages/events';
+import Team from './pages/team';
 
 function Home() {
   return (
@@ -74,6 +77,51 @@ function Home() {
 
         </div>
 
+        <div className="flex flex-col md:flex-row gap-4 w-full justify-start mt-5">
+            <div className="w-full md:flex-1 text-black text-lg font-bold text-center px-8 py-4 rounded-3xl shadow-lg hover:scale-105 transition-transform"
+                style={{ backgroundColor: '#a2eec9' }}>
+                <h1 className="text-black text-3xl font-bold text-left pt-5 pl-5">Team Members</h1>
+                <p className="text-black text-lg leading-loose text-left p-5">
+                Team Members.
+                </p>
+            <Link
+            className="inline-block bg-white text-black text-lg font-bold px-6 py-3 rounded-3xl shadow hover:scale-105 transition-transform"
+                to="/team"
+            >
+
+                Learn More &gt;
+            </Link>
+          </div>
+
+            <div className="w-full md:flex-1 text-black text-lg font-bold text-center px-8 py-4 rounded-3xl shadow-lg hover:scale-105 transition-transform" style={{ backgroundColor: '#48c186' }}>
+                <h1 className="text-black text-3xl font-bold text-left pt-5 pl-5">Mission Statement</h1>
+                <p className="text-black text-lg leading-loose text-left p-5">
+                    Mission Statement.
+            </p>
+          <Link
+            to="/mission"
+            className="inline-block bg-white text-black text-lg font-bold px-6 py-3 rounded-3xl shadow hover:scale-105 transition-transform"
+          >
+            Learn More &gt;
+          </Link>
+          </div>
+
+          <div className="w-full md:flex-1 text-black text-lg font-bold text-center px-8 py-4 rounded-3xl shadow-lg hover:scale-105 transition-transform" style={{ backgroundColor: '#60d29b' }}>
+                <h1 className="text-black text-3xl font-bold text-left pt-5 pl-5">Events</h1>
+                <p className="text-black text-lg leading-loose text-left p-5">
+                    Events.
+            </p>
+          <Link
+            to="/events"
+            className="inline-block bg-white text-black text-lg font-bold px-6 py-3 rounded-3xl shadow hover:scale-105 transition-transform"
+          >
+            Learn More &gt;
+          </Link>
+          </div>
+
+
+        </div>
+
         <div className="flex flex-row gap-4 w-full justify-start mt-5">
             <a
                 href="https://www.instagram.com/agar.utsc/"
@@ -95,6 +143,9 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/research" element={<Research />} />
       <Route path="/newsletter" element={<Newsletter />} />
+      <Route path="/mission" element={<Mission />} />
+      <Route path="/events" element={<Events />} />
+      <Route path="/team" element={<Team />} />
     </Routes>
   );
 }

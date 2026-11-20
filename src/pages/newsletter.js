@@ -11,7 +11,7 @@ const pdfUrl = '/AGAR_Newsletter.pdf'; // Replace with the actual path to your P
     >
       <div
         className="p-8 rounded-3xl shadow-lg"
-        style={{ backgroundColor: '#68d29f' }}
+        style={{ backgroundColor: '#68d29f' }} //#68d29f 
       >
         <h1 className="text-black text-4xl font-bold mb-4">
           Newsletter
