@@ -132,6 +132,16 @@ function Home() {
                 Instagram &gt;
             </a>
         </div>
+        <div className="flex flex-row gap-4 w-full justify-start mt-5">
+            <a
+                href="https://discord.gg/aGTRNPHPH"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-white text-black text-lg font-bold px-6 py-3 rounded-3xl shadow hover:scale-105 transition-transform"
+            >
+                Discord &gt;
+            </a>
+        </div>
       </main>
     </div>
   );
