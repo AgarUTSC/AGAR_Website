@@ -11,15 +11,21 @@ function Team() {
     >
       <div
         className="p-8 rounded-3xl shadow-lg"
-        style={{ backgroundColor: '#68d29f' }}
+        style={{ backgroundColor: '#68d29f',
+          overflow: "hidden",
+          position: "relative",
+          width: "100%"
+        }}
       >
-        <h1 className="text-black text-4xl font-bold mb-4">
-          Team Page
-        </h1>
-
-        <p className="text-black text-lg mb-6">
-          Meet our team members.
-        </p>
+        <iframe 
+        src="https://docs.google.com/document/d/e/2PACX-1vQlsvwNGix8E13bbOpa3XZDfU2WyHQY_GRpV6p1xPkSC9d8FqSUHPiT7qI5siStkGWgIPw-D-N0BRnQ/pub"
+        width="100%"
+        height="600"
+        style={{border:0,
+          marginTop:-160
+        }}
+        title="Events"
+        />
 
         <Link
           to="/"

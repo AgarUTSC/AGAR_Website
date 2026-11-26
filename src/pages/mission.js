@@ -10,15 +10,22 @@ function Mission() {
     >
       <div
         className="p-8 rounded-3xl shadow-lg"
-        style={{ backgroundColor: '#68d29f' }}
+        style={{ backgroundColor: '#68d29f',
+          overflow: "hidden",
+          position: "relative",
+          width: "100%"
+        }}
       >
-        <h1 className="text-black text-4xl font-bold mb-4">
-          Mission Page
-        </h1>
-
-        <p className="text-black text-lg mb-6">
-          Mission Statement Here
-        </p>
+        <iframe 
+        src="https://docs.google.com/document/d/e/2PACX-1vSLhKPI-kim61gF_Dg8kX7a25O8Ar2H8cdT-PZbXXWFKmvhw5VCRfD-CCKsQHpr7AHBYZ1Yh4eKrQa0/pub
+        "
+        width="100%"
+        height="600"
+        style={{border:0,
+          marginTop:-160
+        }}
+        title="Events"
+        />
 
         <Link
           to="/"

@@ -10,15 +10,22 @@ function Events() {
     >
       <div
         className="p-8 rounded-3xl shadow-lg"
-        style={{ backgroundColor: '#68d29f' }}
+        style={{ backgroundColor: '#68d29f',
+          overflow: "hidden",
+          position: "relative",
+          width: "100%"
+        }}
       >
-        <h1 className="text-black text-4xl font-bold mb-4">
-          Events Page
-        </h1>
-
-        <p className="text-black text-lg mb-6">
-          Content here eventually.
-        </p>
+        <iframe 
+        src="https://docs.google.com/document/d/e/2PACX-1vSBiw2caXbK9okn1fIg1EgRMztNerlVL_v6W_f8-p_xR4OKiqbSkFo7TsbfPfQbsWRCA7-BZO-BhN5u/pub
+        "
+        width="100%"
+        height="600"
+        style={{border:0,
+          marginTop:-160
+        }}
+        title="Events"
+        />
 
         <Link
           to="/"

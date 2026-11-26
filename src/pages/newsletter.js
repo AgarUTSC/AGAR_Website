@@ -26,7 +26,9 @@ const pdfUrl = '/AGAR_Newsletter.pdf'; // Replace with the actual path to your P
                 style={{border: 'none'}}
             />
         </div>
-
+        <a href="/AGAR_Newsletter.pdf" download="AGAR_Newsletter.pdf">
+          <button>Download as PDF</button>
+        </a>
         <Link
           to="/"
           className="inline-block bg-white text-black text-lg font-bold px-6 py-3 rounded-3xl shadow hover:scale-105 transition-transform"

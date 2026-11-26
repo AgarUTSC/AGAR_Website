@@ -10,15 +10,22 @@ function Research() {
     >
       <div
         className="p-8 rounded-3xl shadow-lg"
-        style={{ backgroundColor: '#68d29f' }}
+        style={{ backgroundColor: '#68d29f',
+          overflow: "hidden",
+          position: "relative",
+          width: "100%"
+        }}
       >
-        <h1 className="text-black text-4xl font-bold mb-4">
-          Research Page
-        </h1>
-
-        <p className="text-black text-lg mb-6">
-          Content here eventually.
-        </p>
+        <iframe 
+        src="https://docs.google.com/document/d/e/2PACX-1vROxVnxFPtLNRzkl1xg5QeWgXJkh8Y9SzpEFo0Svzz-reLc9x_k_1XjpP9-4ISXhdAdLtjO53UmqCts/pub?embed=true
+        "
+        width="100%"
+        height="600"
+        style={{border:0,
+          marginTop:-160
+        }}
+        title="Events"
+        />
 
         <Link
           to="/"
