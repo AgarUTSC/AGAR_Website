@@ -11,18 +11,20 @@ function Events() {
       <div
         className="p-8 rounded-3xl shadow-lg"
         style={{ backgroundColor: '#68d29f',
-          overflow: "hidden",
+          overflow: "visible",
           position: "relative",
-          width: "100%"
+          width: "100%",
+          height: '85vh',
+          minHeight: '650px'
         }}
       >
         <iframe 
         src="https://docs.google.com/document/d/e/2PACX-1vSBiw2caXbK9okn1fIg1EgRMztNerlVL_v6W_f8-p_xR4OKiqbSkFo7TsbfPfQbsWRCA7-BZO-BhN5u/pub?embedded=true
         "
         width="100%"
-        height="600"
-        style={{border:0//,
-          //marginTop:-160
+        height="90%"
+        style={{border:0,
+          display: 'block'
         }}
         title="Events"
         />
