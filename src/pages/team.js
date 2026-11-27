@@ -18,11 +18,11 @@ function Team() {
         }}
       >
         <iframe 
-        src="https://docs.google.com/document/d/e/2PACX-1vQlsvwNGix8E13bbOpa3XZDfU2WyHQY_GRpV6p1xPkSC9d8FqSUHPiT7qI5siStkGWgIPw-D-N0BRnQ/pub"
+        src="https://docs.google.com/document/d/e/2PACX-1vQlsvwNGix8E13bbOpa3XZDfU2WyHQY_GRpV6p1xPkSC9d8FqSUHPiT7qI5siStkGWgIPw-D-N0BRnQ/pub?embedded=true"
         width="100%"
         height="600"
-        style={{border:0,
-          marginTop:-160
+        style={{border:0//,
+          //marginTop:-160
         }}
         title="Events"
         />

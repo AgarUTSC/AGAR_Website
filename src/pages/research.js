@@ -17,12 +17,12 @@ function Research() {
         }}
       >
         <iframe 
-        src="https://docs.google.com/document/d/e/2PACX-1vROxVnxFPtLNRzkl1xg5QeWgXJkh8Y9SzpEFo0Svzz-reLc9x_k_1XjpP9-4ISXhdAdLtjO53UmqCts/pub?embed=true
+        src="https://docs.google.com/document/d/e/2PACX-1vROxVnxFPtLNRzkl1xg5QeWgXJkh8Y9SzpEFo0Svzz-reLc9x_k_1XjpP9-4ISXhdAdLtjO53UmqCts/pub?embedded=true
         "
         width="100%"
         height="600"
-        style={{border:0,
-          marginTop:-160
+        style={{border:0//,
+          //marginTop:-160
         }}
         title="Events"
         />

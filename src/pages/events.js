@@ -17,12 +17,12 @@ function Events() {
         }}
       >
         <iframe 
-        src="https://docs.google.com/document/d/e/2PACX-1vSBiw2caXbK9okn1fIg1EgRMztNerlVL_v6W_f8-p_xR4OKiqbSkFo7TsbfPfQbsWRCA7-BZO-BhN5u/pub
+        src="https://docs.google.com/document/d/e/2PACX-1vSBiw2caXbK9okn1fIg1EgRMztNerlVL_v6W_f8-p_xR4OKiqbSkFo7TsbfPfQbsWRCA7-BZO-BhN5u/pub?embedded=true
         "
         width="100%"
         height="600"
-        style={{border:0,
-          marginTop:-160
+        style={{border:0//,
+          //marginTop:-160
         }}
         title="Events"
         />
