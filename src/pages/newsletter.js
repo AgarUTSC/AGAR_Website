@@ -28,6 +28,7 @@ const pdfUrl = '/AGAR_Newsletter.pdf'; // Replace with the actual path to your P
             width="100%"
             height="100%"
             style={{ border: 'none' }}
+            title="newsletter"
           />
           
         </div>
